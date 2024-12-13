@@ -1,0 +1,28 @@
+.pageNotFound {
+    margin: 2.5rem;
+    background-image: url('../../public/hq720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+
+    display: flex;
+    min-height: calc(100vh - 5rem);
+}
+
+.pageNotFound h1 {
+    font-size: 5rem;
+}
+
+.pageNotFound a {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.5);
+    padding: 0 2rem;
+    border-radius: 1rem;
+}
+
+.pageNotFound a:visited {
+    color: white;
+}
