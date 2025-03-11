@@ -37,20 +37,6 @@
     border-left: 5px solid var(--color-brand--2);
 }
 
-.hide {
-    width: 160px;
-    height: 20px;
-    background-color: rgb(44, 43, 43);
-    position: fixed;
-    z-index: 9999 !important;
-    bottom: 24px;
-    right: 24px;
-    color: #d6dee0;
-    line-height: 2rem;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.hide:hover {
-    cursor: none;
+:global(.leaflet-control-attribution) {
+    display: none;
 }

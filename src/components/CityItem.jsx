@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './CityItem.module.css';
 import formatDate from '../resources/formatDate';
-import useCities from '../contexts/customHooks/useCities';
+import useCities from '../hooks/useCities';
 
 function CityItem({ city }) {
     const { currentCity } = useCities();

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
-import useCities from '../contexts/customHooks/useCities';
+import useCities from '../hooks/useCities';
 import formatDate from '../resources/formatDate';
 import styles from './City.module.css';
 import Spinner from './Spinner';
