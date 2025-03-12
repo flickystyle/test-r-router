@@ -21,6 +21,13 @@
     gap: 0.5rem;
 }
 
+.row h3 span {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-5px);
+    color: var(--color-brand--3);
+}
+
 .city h6 {
     text-transform: uppercase;
     font-size: 1.1rem;

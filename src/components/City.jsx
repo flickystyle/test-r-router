@@ -7,7 +7,6 @@ import Spinner from './Spinner';
 import BackButton from './BackButton';
 
 function City() {
-    // TEMP DATA
     const { id } = useParams();
     const { getCity, currentCity, isLoading } = useCities();
 

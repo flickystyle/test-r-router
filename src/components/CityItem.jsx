@@ -4,7 +4,7 @@ import formatDate from '../resources/formatDate';
 import useCities from '../hooks/useCities';
 
 function CityItem({ city }) {
-    const { currentCity } = useCities();
+    const { currentCity, deleteCity } = useCities();
     const { cityName, date, emoji, id, position } = city;
 
     return (
@@ -18,7 +18,12 @@ function CityItem({ city }) {
                 <span className={styles.emoji}>{emoji}</span>
                 <h3 className={styles.name}>{cityName}</h3>
                 <time className={styles.date}>{formatDate(date)}</time>
-                <button className={styles.deleteBtn}>&times;</button>
+                <button
+                    className={styles.deleteBtn}
+                    onClick={() => deleteCity(id, position.lat, position.lng)}
+                >
+                    &times;
+                </button>
             </Link>
         </li>
     );
