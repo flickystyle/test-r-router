@@ -21,7 +21,7 @@ const FAKE_USER = {
     name: 'Vasiliy',
     email: 'vasiliy@example.com',
     password: 'qwerty',
-    avatar: 'https://cdn-icons-png.flaticon.com/128/18775/18775891.png',
+    avatar: '/public/avatar.png',
 };
 
 function AuthProvider({ children }) {

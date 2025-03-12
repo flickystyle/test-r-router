@@ -7,10 +7,12 @@
         ),
         url('../bg.jpg');
     min-height: calc(100vh - 5rem);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .form {
-    background-color: var(--color-dark--2);
+    background-color: var(--color-dark--2o);
     border-radius: 7px;
     padding: 2rem 3rem;
     width: 100%;

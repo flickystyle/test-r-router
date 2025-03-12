@@ -1,8 +1,14 @@
 .product {
     margin: 2.5rem;
     padding: 2.5rem 2.5rem;
-    background-color: var(--color-dark--1);
+    background-image: linear-gradient(
+            rgba(36, 42, 46, 0.8),
+            rgba(36, 42, 46, 0.8)
+        ),
+        url('../bg.jpg');
     min-height: calc(100vh - 5rem);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .product section {
@@ -16,6 +22,7 @@
 
 .product img {
     width: 100%;
+    border-radius: 5%;
 }
 
 .product h2 {
