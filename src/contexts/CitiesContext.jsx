@@ -52,32 +52,36 @@ function CitiesProvider({ children }) {
             console.log(data);
             setCities((cities) => [...cities, data]);
         } catch {
-            alert('Something went wrong!');
+            alert('Something went wrong when creating city!');
         } finally {
             setIsLoading(false);
         }
     }
 
-    async function deleteCity(id, lat, lng) {
+    async function deleteCity(id) {
         try {
             setIsLoading(true);
-            const res = await fetch(`${BASE_URL}/cities/${id}?lat=${lat}&lng=${lng}`, {
-                method: 'DELETE',               
+            await fetch(`${BASE_URL}/cities/${id}`, {
+                method: 'DELETE',
             });
-            const data = await res.json();
-            console.log(data);
-            // setCities((cities) => [...cities, data]);
+            setCities((cities) => cities.filter((city) => city.id !== id));
         } catch {
-            alert('Something went wrong!');
+            alert('Something went wrong when deleting city!');
         } finally {
             setIsLoading(false);
         }
     }
-
 
     return (
         <CitiesContext.Provider
-            value={{ cities, isLoading, currentCity, getCity, createCity, deleteCity }}
+            value={{
+                cities,
+                isLoading,
+                currentCity,
+                getCity,
+                createCity,
+                deleteCity,
+            }}
         >
             {children}
         </CitiesContext.Provider>

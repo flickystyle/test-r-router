@@ -25,39 +25,51 @@
       "id": "17806751"
     },
     {
-      "id": "5b03",
-      "cityName": "Erg Ferradj",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2025-03-12T09:22:47.959Z",
-      "notes": "asdasdasd",
+      "id": "260a",
+      "cityName": "Moscow",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-03-12T10:01:22.698Z",
+      "notes": "Cool\n",
       "position": {
-        "lat": "30.90222470517144",
-        "lng": "-3.0816759589539515"
+        "lat": "55.70109442459099",
+        "lng": "37.64913034579888"
       }
     },
     {
-      "id": "c3e8",
-      "cityName": "Timokten",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2025-03-12T09:25:16.402Z",
-      "notes": "asdasdasdasd",
+      "id": "bceb",
+      "cityName": "Tver",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-03-12T10:02:46.036Z",
+      "notes": "Otkroi dver",
       "position": {
-        "lat": "27.916766641249065",
-        "lng": "1.224414257650648"
+        "lat": "56.81219205094846",
+        "lng": "35.946985128413885"
       }
     },
     {
-      "id": "0ee1",
-      "cityName": "Hinojosa de San Vicente",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-03-12T09:36:43.907Z",
-      "notes": "asdas",
+      "id": "3add",
+      "cityName": "Teriberka",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-03-12T10:04:05.201Z",
+      "notes": "Баня",
       "position": {
-        "lat": "40.08647729380884",
-        "lng": "-4.757672825627742"
+        "lat": "69.16389491347775",
+        "lng": "35.146104778497396"
+      }
+    },
+    {
+      "id": "3ec0",
+      "cityName": "Staryye Petushki",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-03-12T10:06:10.595Z",
+      "notes": "Petushki",
+      "position": {
+        "lat": "55.86528467956389",
+        "lng": "39.08170715175551"
       }
     }
   ]
