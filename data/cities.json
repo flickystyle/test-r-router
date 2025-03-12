@@ -13,18 +13,6 @@
       "id": "73930385"
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
       "id": "260a",
       "cityName": "Moscow",
       "country": "Russian Federation (the)",
@@ -34,18 +22,6 @@
       "position": {
         "lat": "55.70109442459099",
         "lng": "37.64913034579888"
-      }
-    },
-    {
-      "id": "bceb",
-      "cityName": "Tver",
-      "country": "Russian Federation (the)",
-      "emoji": "🇷🇺",
-      "date": "2025-03-12T10:02:46.036Z",
-      "notes": "Otkroi dver",
-      "position": {
-        "lat": "56.81219205094846",
-        "lng": "35.946985128413885"
       }
     },
     {
