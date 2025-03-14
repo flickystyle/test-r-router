@@ -12,7 +12,14 @@
 }
 
 .form {
-    background-color: var(--color-dark--2o);
+    background: rgb(52, 78, 94);
+    background: linear-gradient(
+        270deg,
+        rgba(58, 67, 74, 0.6) 0%,
+        rgba(70, 74, 76, 0.6) 50%,
+        rgba(34, 39, 43, 0.6) 100%
+    );
+    border: var(--color-dark--2) solid 1px;
     border-radius: 7px;
     padding: 2rem 3rem;
     width: 100%;

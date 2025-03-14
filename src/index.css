@@ -62,10 +62,29 @@ input:focus {
     display: inline-block;
     background-color: var(--color-brand--2);
     color: var(--color-dark--1);
+    box-shadow: 0 0 20px var(--color-light--2);
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.6rem;
     font-weight: 600;
     padding: 1rem 3rem;
     border-radius: 5px;
+}
+
+.cta-na:link,
+.cta-na:visited {
+    display: inline-block;
+    background-color: var(--color-dark--2o);
+    color: var(--color-light--1);
+    border: var(--color-dark--1) solid 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+}
+
+.cta-na:hover {
+    cursor: not-allowed;
 }
