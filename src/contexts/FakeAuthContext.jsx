@@ -21,7 +21,7 @@ const FAKE_USER = {
     name: 'Vasiliy',
     email: 'vasiliy@example.com',
     password: 'qwerty',
-    avatar: '/public/avatar.png',
+    avatar: 'https://img.freepik.com/premium-psd/3d-render-cartoon-avatar-isolated_570939-91.jpg?w=826',
 };
 
 function AuthProvider({ children }) {
